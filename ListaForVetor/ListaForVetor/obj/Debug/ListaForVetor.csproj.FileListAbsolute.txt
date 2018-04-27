@@ -1,2 +1,7 @@
 c:\users\105013\documents\visual studio 2013\Projects\ListaForVetor\ListaForVetor\bin\Debug\ListaForVetor.exe.config
 C:\Users\105013\Documents\GitHub\lista-for-vetor\ListaForVetor\ListaForVetor\bin\Debug\ListaForVetor.exe.config
+C:\Users\105013\Documents\GitHub\lista-for-vetor\ListaForVetor\ListaForVetor\obj\Debug\ListaForVetor.csprojResolveAssemblyReference.cache
+C:\Users\105013\Documents\GitHub\lista-for-vetor\ListaForVetor\ListaForVetor\bin\Debug\ListaForVetor.exe
+C:\Users\105013\Documents\GitHub\lista-for-vetor\ListaForVetor\ListaForVetor\bin\Debug\ListaForVetor.pdb
+C:\Users\105013\Documents\GitHub\lista-for-vetor\ListaForVetor\ListaForVetor\obj\Debug\ListaForVetor.exe
+C:\Users\105013\Documents\GitHub\lista-for-vetor\ListaForVetor\ListaForVetor\obj\Debug\ListaForVetor.pdb

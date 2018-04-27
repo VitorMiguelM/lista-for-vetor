@@ -10,6 +10,7 @@ namespace ListaForVetor
     {
         static void Main(string[] args)
         {
+            new Exercício01();
         }
     }
 }

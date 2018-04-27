@@ -13,7 +13,8 @@ namespace ListaForVetor
             //new Exercício01();
             //new Exercício02();
             //new Exercício03();
-            new Exercício04();
+            //new Exercício04();
+            new Exercício05();
         }
     }
 }

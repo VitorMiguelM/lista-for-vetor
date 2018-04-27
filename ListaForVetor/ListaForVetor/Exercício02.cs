@@ -19,7 +19,12 @@ namespace ListaForVetor
                 idades[i] = Convert.ToInt32(Console.ReadLine());
 
             }
-            Console.WriteLine("As idades cadastradas são: " + idades);
+
+            for (int i = 0; i < idades.Length; i++)
+            {
+                Console.WriteLine("As idades cadastradas são: " + idades[i]);
+
+            }
         }
     }
 }

@@ -15,7 +15,30 @@ namespace ListaForVetor
             //Ao final apresentar todos os preços e o total dos preços.
             //Observação: não deve ser solicitado o preço total e sim utilizar o vetor.
 
-            Console.Write("");
+            Console.Write("Quantidade de registros que deseja armazenar: ");
+            int quantidadeRegistros = Convert.ToInt32(Console.ReadLine());
+
+            int[] registros = new int[quantidadeRegistros];
+            double[] precos = new double[quantidadeRegistros];
+            
+            for(int i = 0; i < quantidadeRegistros; i++)
+            {
+                Console.Write("Informe os preços: ");
+                precos[i] = Convert.ToDouble(Console.ReadLine());
+
+            }
+
+
+
+            double total = 0;
+            for (int i = 0; i < quantidadeRegistros; i++) 
+            {
+                total = precos[i] + total;
+                
+            }
+          
+            Console.WriteLine("O total dos preços é de: " + total);
+
             
 
         }

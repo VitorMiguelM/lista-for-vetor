@@ -11,8 +11,8 @@ namespace ListaForVetor
         static void Main(string[] args)
         {
             //new Exercício01();
-            new Exercício02();
-            //new Exercício03();
+            //new Exercício02();
+            new Exercício03();
         }
     }
 }

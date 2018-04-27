@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ListaForVetor
 {
-    class Program
+    class Principal
     {
         static void Main(string[] args)
         {

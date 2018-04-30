@@ -22,15 +22,49 @@ namespace ListaForVetor
             //Grand Theft Auto V 12
             //Observação: A quantidade de jogos que serão cadastrados é o usuário que irá definir;
 
-            Console.Write("Quantos jogos deseja armazenar? ");
-            int quantidadeJogosArmazenar = Convert.ToInt32(Console.ReadLine());
+            int quantidadeJogosCadastrados = 0;
 
-            int[] quantidadeJogos = new int[quantidadeJogosArmazenar];
+            bool validarQuantidade = true;
 
-            string[] nomesJogos = new string[quantidadeJogosArmazenar];
-            
-    
+            while(validarQuantidade == true)
+            {
+                try
+                {
+                    Console.Write("Quantidade de jogos que deseja cadastrar: ");
+                    quantidadeJogosCadastrados = Convert.ToInt32(Console.ReadLine());
+                    validarQuantidade = false;
 
+                    Console.Clear();
+                }
+
+                catch
+                {
+                    Console.WriteLine("Deveria Conter apenas números, tente novamente.");
+                    Console.ReadKey();
+                    Console.Clear();
+                }
+
+                string[] nomeJogos = new string[quantidadeJogosCadastrados];
+                int[] quantidadeJogos = new int[quantidadeJogosCadastrados];
+
+                for (int i = 0; i < quantidadeJogosCadastrados; i++)
+                {
+                    Console.Write("Jogo: ");
+                    nomeJogos[i] = Console.ReadLine();
+                    Console.Write("Quantidade: ");
+                    quantidadeJogos[i] = Convert.ToInt32(Console.ReadLine());
+                }
+
+
+
+
+
+                    for (int i = 0; i < quantidadeJogosCadastrados; i++)
+                    {
+                        Console.WriteLine(string.Format("Jogo {0} - quantidade {1}", nomeJogos[i], quantidadeJogos[i]));
+                    }
+
+            }
         }
     }
 }
